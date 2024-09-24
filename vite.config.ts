@@ -13,4 +13,12 @@ export default defineConfig({
     }),
     tsconfigPaths(),
   ],
+  optimizeDeps: {
+    include: ['colorthief']
+  },
+  build: {
+    commonjsOptions: {
+      transformMixedEsModules: true
+    }
+  }
 });
