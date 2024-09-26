@@ -2,11 +2,6 @@ import type { MetaFunction } from "@remix-run/node";
 import { ChangeEvent, useMemo, useState } from "react";
 import { InputFile } from "~/components/input-file";
 import ColorThief from 'colorthief';
-import { AspectRatio } from "@radix-ui/react-aspect-ratio";
-
-
-console.log(ColorThief, typeof ColorThief)
-
 
 export const meta: MetaFunction = () => {
   return [

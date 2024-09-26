@@ -1,40 +1,27 @@
-# Welcome to Remix!
+# Colorthief App
 
-- 📖 [Remix docs](https://remix.run/docs)
+This project is a PoC built using Remix.js and ColorThief to implement a web page that uploads an image and reads its colors.
 
-## Development
+## Environment Setup
 
-Run the dev server:
+This application requires the following:
 
-```shellscript
+- [Remix.js](https://remix.run/)
+- [ColorThief](https://lokeshdhakar.com/projects/color-thief/)
+
+## Installation
+
+1. Clone the repository or download the files.
+2. Navigate to the project directory in your terminal.
+3. Run the following command to install the necessary packages:
+
+```bash
+npm install
+```
+4. Start the development server with:
+
+```bash
 npm run dev
 ```
 
-## Deployment
-
-First, build your app for production:
-
-```sh
-npm run build
-```
-
-Then run the app in production mode:
-
-```sh
-npm start
-```
-
-Now you'll need to pick a host to deploy it to.
-
-### DIY
-
-If you're familiar with deploying Node applications, the built-in Remix app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
-
-- `build/server`
-- `build/client`
-
-## Styling
-
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever css framework you prefer. See the [Vite docs on css](https://vitejs.dev/guide/features.html#css) for more information.
+5. Open your browser and go to http://localhost:5173/ to view the application.
